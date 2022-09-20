@@ -1,8 +1,56 @@
 body{
-    margin:0;
-    padding:0;
-}
-h1{
-    color: red;
+    margin: 0;
+    overflow-x: hidden;
+   
+
 }
 
+/* top bar( container ) */
+.top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.top-bar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrap-topbar{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-info{
+    height: 50px;
+    float: left;
+   
+}
+.info-list{
+    list-style: none;
+}
+.info-li{
+    float: left;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.fa-envelope{
+    padding-right: 5px;
+}
+.fa-phone{
+    padding-right: 5px;
+}
+.top-icon{
+    height: 50px;
+    
+}
+.icon-list{
+    list-style: none;
+}
+.icon-li{
+    float: left;
+    padding-right: 30px;
+    color: #7ab730;
+    font-size: 18px;
+}
