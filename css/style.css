@@ -95,4 +95,48 @@ img{
 .wrap-slidebar{
     position: fixed;
 }
+/* navbar */
+.navbar{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 810px;
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ .nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo{
+    font-size: 25px;
+ }
+ h2{
+    color: #7ab730;
+}
+.dark-travel{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+ }
+ .menu-li a:hover{
+    color: #7ab730;
+ }
+ .menu-list{
+    list-style: none;
+ }
+ .menu-li{
+    float: left;
+    padding: 18px;
+    font-size: 18px;
+
+ }
     
